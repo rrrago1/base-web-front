@@ -8,8 +8,7 @@ import { AdvertisementComponent } from './advertisement/advertisement.component'
 @NgModule({
     declarations: [
       HeaderComponent,
-      FooterComponent,
-      AdvertisementComponent
+      FooterComponent
     ],
     exports: [
       HeaderComponent,
