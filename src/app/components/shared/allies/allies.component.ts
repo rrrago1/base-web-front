@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-allies',
+  selector: 'allies',
   templateUrl: './allies.component.html',
   styleUrls: ['./allies.component.scss']
 })

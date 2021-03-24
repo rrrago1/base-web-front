@@ -14,9 +14,7 @@ import { AlliesComponent } from './components/shared/allies/allies.component';
   declarations: [
     AppComponent,
     LayoutComponent,
-    CardServiceComponent,
-    TipsComponent,
-    AlliesComponent
+    TipsComponent
   ],
   imports: [
     BrowserModule,
