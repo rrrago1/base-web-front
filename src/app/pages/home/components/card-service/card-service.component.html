@@ -1,1 +1,20 @@
-<p>card-service works!</p>
+<div class="content_items">
+    <div class="row  item-center-align">
+        <div class="col-xs-12 col-md-4 item-columns" *ngFor="let item of data">
+            <div class="column-item" >
+                <div class="content-card-item" >
+                    <div class="content-image">
+                        <img src={{item.img}} alt="" width="122" height="200" title="abogado-studio-webcam-cali-bogota-medellin">
+                    </div>
+                    <h3 class="title-card">
+                        {{item.title}}
+                    </h3>
+                    <div class="text-content-card">
+                        <p>{{item.msg}}</p>
+                    </div>
+                </div>
+                <a class="gdlr-core-hover-box-link" routerLink="/our-services"></a>
+            </div>
+        </div>
+    </div>
+</div>
