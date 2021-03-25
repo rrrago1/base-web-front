@@ -6,9 +6,7 @@ import { AppComponent } from './app.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { SharedModule } from './components/shared/shared.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CardServiceComponent } from './pages/home/components/card-service/card-service.component';
 import { TipsComponent } from './pages/home/components/tips/tips.component';
-import { AlliesComponent } from './components/shared/allies/allies.component';
 
 @NgModule({
   declarations: [

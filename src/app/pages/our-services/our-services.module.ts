@@ -3,10 +3,8 @@ import { CommonModule } from '@angular/common';
 import { SharedModule } from '../../components/shared/shared.module';
 import { ServicesComponent } from './components/services.component';
 import { ServicesRoutingModule } from './our-services-routing.module';
-import { OurInfoComponent } from './our-info/our-info.component';
+import { OurInfoComponent } from './components/our-info/our-info.component';
 import { SpecificServiceComponent } from './components/specific-service/specific-service.component';
-
-
 
 @NgModule({
   declarations: [
