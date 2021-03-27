@@ -130,5 +130,8 @@
       }
     }
   },
-  "defaultProject": "base-web"
+  "defaultProject": "base-web",
+  "cli": {
+    "analytics": "cf33616a-d65b-450e-acbf-89873159b4c9"
+  }
 }
